@@ -1,6 +1,6 @@
 {
   "buildCommand": "pnpm --filter @workspace/kimble-website run build",
-  "outputDirectory": "artifacts/kimble-website/dist",
+  "outputDirectory": "artifacts/kimble-website/dist/public",
   "installCommand": "pnpm install",
   "framework": null
 }
