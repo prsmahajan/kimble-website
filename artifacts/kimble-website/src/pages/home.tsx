@@ -35,13 +35,34 @@ export default function Home() {
     },
   });
 
-  function onSubmit(data: ContactFormValues) {
-    console.log(data);
-    toast({
-      title: "Request Received",
-      description: "Thank you for reaching out. We will contact you shortly.",
-    });
-    form.reset();
+  async function onSubmit(data: ContactFormValues) {
+    try {
+      const res = await fetch("https://formspree.io/f/mreolrvd", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          name: data.name,
+          company: data.company,
+          email: data.email,
+          phone: data.phone,
+          projectType: data.projectType,
+        }),
+      });
+
+      if (!res.ok) throw new Error("Submission failed");
+
+      toast({
+        title: "Request Received",
+        description: "Thank you for reaching out. We will contact you shortly.",
+      });
+      form.reset();
+    } catch {
+      toast({
+        title: "Something went wrong",
+        description: "Please try again or call us directly at (607) 734-4123.",
+        variant: "destructive",
+      });
+    }
   }
 
   const galleryRow1 = [
