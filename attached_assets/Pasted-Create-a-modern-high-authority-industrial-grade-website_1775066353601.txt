@@ -1,0 +1,175 @@
+Create a modern, high-authority, industrial-grade website for a mechanical contracting company.
+
+Company Name: Kimble Inc
+Location: Elmira, New York
+Industry: Mechanical contracting, HVAC, plumbing, process piping
+Experience: 60 plus years in business
+
+GOAL:
+Position the company as a trusted, experienced, large-scale contractor capable of handling complex commercial and industrial projects.
+
+The website should feel professional, credible, and authoritative — not like a small local service business.
+
+---
+
+DESIGN STYLE:
+
+Clean, structured, industrial aesthetic
+Dark blue, steel grey, and white color palette
+Strong typography with bold headings
+Minimal animations
+Use real-world imagery of industrial work, piping systems, HVAC installations
+Layout should feel like engineering precision and reliability
+
+---
+
+HOMEPAGE STRUCTURE:
+
+HERO SECTION
+
+Headline:
+“60 Years of Mechanical Excellence”
+
+Subheadline:
+“Trusted mechanical contracting solutions for commercial and industrial projects across New York and Pennsylvania”
+
+Primary CTA:
+“Request a Quote”
+
+Secondary CTA:
+“View Our Projects”
+
+Background:
+Industrial work imagery such as piping systems, HVAC installations, job sites
+
+---
+
+TRUST SECTION
+
+Show credibility immediately
+
+60 plus years experience
+Serving Southern Tier and Northern Pennsylvania
+Proven track record in large scale projects
+Experienced skilled workforce
+
+---
+
+SERVICES SECTION
+
+Title:
+“Our Capabilities”
+
+Process Piping
+Engineered piping systems for complex industrial applications
+
+HVAC Systems
+Design and installation for commercial and institutional buildings
+
+Plumbing Solutions
+Reliable plumbing systems built for durability and performance
+
+Each service should feel technical, reliable, and results focused
+
+---
+
+PROJECT SHOWCASE
+
+Title:
+“Featured Projects”
+
+Display real project images
+Include project type, scope, and outcome
+Focus on scale and complexity
+
+---
+
+WHY CHOOSE US
+
+Title:
+“Why Kimble Inc”
+
+Decades of proven experience
+On time and on budget execution
+Strong client relationships
+Commitment to quality and safety
+
+---
+
+CLIENT TYPES
+
+Title:
+“Who We Work With”
+
+Commercial facilities
+Industrial plants
+Institutional buildings
+Government and infrastructure projects
+
+---
+
+CALL TO ACTION SECTION
+
+“Have a project in mind”
+
+Button:
+Request a Quote
+
+---
+
+ABOUT PREVIEW
+
+Short story about legacy and trust
+Highlight long-term reputation and reliability
+
+---
+
+CONTACT SECTION
+
+Simple form:
+
+Name
+Company
+Project type
+Phone
+Email
+
+Button:
+Request Consultation
+
+---
+
+FOOTER
+
+Company info
+Address
+Phone
+Email
+Service regions
+
+---
+
+FEATURES TO INCLUDE
+
+Professional photography
+Project portfolio emphasis
+Clear navigation
+Fast loading
+Mobile optimized
+Strong credibility focus
+
+---
+
+COPY STYLE
+
+Confident
+Professional
+Clear and direct
+No fluff or marketing hype
+Speak like an experienced contractor
+
+---
+
+FINAL OUTPUT
+
+A premium, structured, high-trust website that positions the company as a leader in mechanical contracting and large-scale project execution
