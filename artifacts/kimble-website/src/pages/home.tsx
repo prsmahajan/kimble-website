@@ -87,18 +87,18 @@ export default function Home() {
             <div className="flex-shrink-0 flex items-center">
               <a href="#">
                 <img 
-                  className="h-12 w-auto object-contain" 
+                  className="h-16 w-auto object-contain" 
                   src="https://static.wixstatic.com/media/86befe_5b343736e3ec4e908a01349ffd887b0e~mv2.jpg/v1/fill/w_927,h_1000,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/86befe_5b343736e3ec4e908a01349ffd887b0e~mv2.jpg" 
                   alt="Kimble Inc Logo" 
                 />
               </a>
             </div>
             <nav className="hidden md:flex space-x-8 items-center">
-              <a href="#services" className="text-sm font-semibold text-foreground hover:text-primary transition-colors">Services</a>
-              <a href="#projects" className="text-sm font-semibold text-foreground hover:text-primary transition-colors">Projects</a>
-              <a href="#team" className="text-sm font-semibold text-foreground hover:text-primary transition-colors">Team</a>
-              <a href="#about" className="text-sm font-semibold text-foreground hover:text-primary transition-colors">About</a>
-              <a href="#contact" className="text-sm font-semibold text-foreground hover:text-primary transition-colors">Contact</a>
+              <a href="#services" className="nav-link text-sm font-semibold text-foreground hover:text-primary transition-colors">Services</a>
+              <a href="#projects" className="nav-link text-sm font-semibold text-foreground hover:text-primary transition-colors">Projects</a>
+              <a href="#team" className="nav-link text-sm font-semibold text-foreground hover:text-primary transition-colors">Team</a>
+              <a href="#about" className="nav-link text-sm font-semibold text-foreground hover:text-primary transition-colors">About</a>
+              <a href="#contact" className="nav-link text-sm font-semibold text-foreground hover:text-primary transition-colors">Contact</a>
               <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90">
                 <a href="#contact">Request a Quote</a>
               </Button>
@@ -115,14 +115,14 @@ export default function Home() {
         </div>
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden bg-background border-b border-border shadow-md">
-            <div className="px-4 pt-2 pb-6 space-y-2 flex flex-col">
-              <a href="#services" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-semibold text-foreground hover:bg-muted">Services</a>
-              <a href="#projects" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-semibold text-foreground hover:bg-muted">Projects</a>
-              <a href="#team" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-semibold text-foreground hover:bg-muted">Team</a>
-              <a href="#about" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-semibold text-foreground hover:bg-muted">About</a>
-              <a href="#contact" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-semibold text-foreground hover:bg-muted">Contact</a>
-              <div className="px-3 pt-2">
+          <div className="md:hidden bg-background border-b border-border shadow-md animate-slide-down">
+            <div className="px-4 pt-2 pb-6 space-y-1 flex flex-col">
+              <a href="#services" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-3 text-base font-semibold text-foreground hover:text-primary border-b border-border/40 transition-colors">Services</a>
+              <a href="#projects" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-3 text-base font-semibold text-foreground hover:text-primary border-b border-border/40 transition-colors">Projects</a>
+              <a href="#team" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-3 text-base font-semibold text-foreground hover:text-primary border-b border-border/40 transition-colors">Team</a>
+              <a href="#about" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-3 text-base font-semibold text-foreground hover:text-primary border-b border-border/40 transition-colors">About</a>
+              <a href="#contact" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-3 text-base font-semibold text-foreground hover:text-primary transition-colors">Contact</a>
+              <div className="px-3 pt-3">
                 <Button asChild className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
                   <a href="#contact" onClick={() => setIsMobileMenuOpen(false)}>Request a Quote</a>
                 </Button>
@@ -467,11 +467,13 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
             <div>
-              <img 
-                className="h-16 w-auto object-contain brightness-0 invert mb-6" 
-                src="https://static.wixstatic.com/media/86befe_5b343736e3ec4e908a01349ffd887b0e~mv2.jpg/v1/fill/w_927,h_1000,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/86befe_5b343736e3ec4e908a01349ffd887b0e~mv2.jpg" 
-                alt="Kimble Inc Logo" 
-              />
+              <div className="inline-block bg-white rounded p-2 mb-6">
+                <img 
+                  className="h-16 w-auto object-contain" 
+                  src="https://static.wixstatic.com/media/86befe_5b343736e3ec4e908a01349ffd887b0e~mv2.jpg/v1/fill/w_927,h_1000,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/86befe_5b343736e3ec4e908a01349ffd887b0e~mv2.jpg" 
+                  alt="Kimble Inc Logo" 
+                />
+              </div>
               <p className="text-[#f4f3ee]/70 text-sm max-w-sm">
                 The established authority in mechanical contracting. Over 60 years of proven results for commercial and industrial clients.
               </p>
@@ -480,9 +482,13 @@ export default function Home() {
               <h4 className="text-xl font-bold font-display uppercase tracking-wide mb-6">Contact Us</h4>
               <ul className="space-y-3 text-[#f4f3ee]/80">
                 <li>Kimble Inc</li>
-                <li>Elmira, New York</li>
-                <li>Phone: (555) 123-4567</li>
-                <li>Email: info@kimbleinc.com</li>
+                <li>1004 Sullivan St</li>
+                <li>Elmira, NY 14901</li>
+                <li>
+                  <a href="tel:6077344123" className="hover:text-white transition-colors">
+                    (607) 734-4123
+                  </a>
+                </li>
               </ul>
             </div>
             <div>
@@ -494,7 +500,7 @@ export default function Home() {
             </div>
           </div>
           <div className="pt-8 border-t border-white/10 text-center md:text-left flex flex-col md:flex-row justify-between items-center text-sm text-[#f4f3ee]/50">
-            <p>2024 Kimble Inc. All rights reserved.</p>
+            <p>2026 Kimble Inc. All rights reserved.</p>
             <div className="mt-4 md:mt-0 space-x-4">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
